@@ -1,0 +1,42 @@
+.bar{
+    background-color: #9a999e;
+    
+}
+
+.nav-link{
+    color:#b31414;
+    font-size: larger;
+}
+.brand{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.7rem;
+    color:#ff9100 ;
+}
+.presentation{
+    
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ff9100;
+    text-shadow: 0 1px 0 #ff4949, 0 2px 0 #ff7777, 0 3px 0 #ffbbbb, 0 4px 0 #9f5b53, 0 5px 0 #b31414, 0 6px 1px rgba(38,50,56,255);
+}
+.paragraphs{
+    font-family: "Noto Serif", serif;
+}
+.presentationCaro{
+    filter: drop-shadow(0 0 8px #b31414);
+}
+
+.item{
+    font-size: 2.5rem;
+    color:#ff9100
+}
+.title{
+    color: #ff9100;
+}
+.caption{
+    color:#b31414
+}
