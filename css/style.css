@@ -1,42 +1,102 @@
-.bar{
-    background-color: #9a999e;
-    
+.line {
+    background-color: #b31414;
+    height: 1rem;
 }
 
-.nav-link{
-    color:#b31414;
-    font-size: larger;
+.bar {
+    background-color: #f9f8fd;
+    height: 7rem;
 }
-.brand{
-    font-family: "Dancing Script", cursive;
+
+.nav-link {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+}
+
+.brand {
+    font-family: "Bebas Neue", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: italic;
-    font-size: 1.7rem;
-    color:#ff9100 ;
-}
-.presentation{
-    
-    font-family: "Dancing Script", cursive;
-    font-weight: bold;
-    font-size: 30px;
-    color: #ff9100;
-    text-shadow: 0 1px 0 #ff4949, 0 2px 0 #ff7777, 0 3px 0 #ffbbbb, 0 4px 0 #9f5b53, 0 5px 0 #b31414, 0 6px 1px rgba(38,50,56,255);
-}
-.paragraphs{
-    font-family: "Noto Serif", serif;
-}
-.presentationCaro{
-    filter: drop-shadow(0 0 8px #b31414);
+    font-size: 1.9rem;
+    /* color: #ff9100; */
 }
 
-.item{
-    font-size: 2.5rem;
-    color:#ff9100
-}
-.title{
+.presentation {
+
+    font-family: "Comfortaa", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
     color: #ff9100;
+    text-shadow: 0 1px 0 #ff4949, 0 2px 0 #ff7777, 0 3px 0 #ffbbbb, 0 4px 0 #9f5b53, 0 1px 0 #b31414, 0 3px 3px rgba(38, 50, 56, 255);
 }
-.caption{
-    color:#b31414
+
+.paragraphs {
+    font-family: "Noto Serif", serif;
+}
+
+.presentationCaro {
+    filter: drop-shadow(0 0 3px #b31414);
+}
+
+.button-3d {
+    min-width: 150px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ff9100;
+    box-shadow: 0 5px #b31414;
+}
+
+.button-3d:hover {
+    box-shadow: 0 3px #b31414;
+    top: 1px;
+}
+
+.button-3d:active {
+    box-shadow: 0 0 #b31414;
+    top: 5px;
+}
+
+.buttonLink {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item {
+    font-size: 2.5rem;
+    color: #ff9100;
+    filter: drop-shadow(0 0 1px #ff9100);
+}
+
+.caption,
+span {
+    color: #b31414
+}
+
+.title {
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 27px;
+    color: #ff9100;
+    text-shadow: 0 1px 0 #ff4949, 0 2px 0 #ff7777, 0 3px 0 #ffbbbb, 0 4px 0 #9f5b53, 0 2px 0 #b31414, 0 6px 1px rgba(38, 50, 56, 255);
+}
+
+.request{
+   height: 600px;
+}
+.footerText {
+    background-color: #ff9100
+}
+
+@media (min-width: 576px) {
+    /* … */
 }
