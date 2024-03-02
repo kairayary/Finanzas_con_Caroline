@@ -21,7 +21,13 @@
     font-size: 1.9rem;
     /* color: #ff9100; */
 }
+a{
+    text-decoration: none;
+}
 
+#about, #product, #community, .request{
+    min-height: 80vh;
+}
 .presentation {
 
     font-family: "Comfortaa", sans-serif;
@@ -87,12 +93,9 @@ span {
     font-weight: bold;
     font-size: 27px;
     color: #ff9100;
-    text-shadow: 0 1px 0 #ff4949, 0 2px 0 #ff7777, 0 3px 0 #ffbbbb, 0 4px 0 #9f5b53, 0 2px 0 #b31414, 0 6px 1px rgba(38, 50, 56, 255);
+    text-shadow: 0 1px 0 #ff4949, 0 2px 0 #ff7777, 0 3px 0 #ffbbbb, 0 2px 0 #9f5b53, 0 2px 0 #b31414, 0 2px 1px rgba(38, 50, 56, 255);
 }
 
-.request{
-   height: 600px;
-}
 .footerText {
     background-color: #ff9100
 }
