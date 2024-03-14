@@ -61,7 +61,7 @@ a {
     margin-left: 20rem;
 }
 
-.button-3d{
+.button-3d, .buttonF-3d{
     min-width: 150px;
     height: 40px;
     color: #fff;
@@ -78,12 +78,12 @@ a {
     box-shadow: 0 5px #b31414;
 }
 
-.button-3d:hover {
+.button-3d, .buttonF-3d:hover {
     box-shadow: 0 3px #b31414;
     top: 1px;
 }
 
-.button-3d:active {
+.button-3d, .buttonF-3d:active {
     box-shadow: 0 0 #b31414;
     top: 5px;
 }
@@ -153,6 +153,10 @@ span {
         height: 410px;
 
     }
+    .imgContact{
+        width: 250px;
+        height: 250px;
+    }
     .register {
         padding: 1.5rem;
     }
@@ -195,7 +199,7 @@ span {
   
     
     .presentationCaro,
-    .presentationC {
+    .presentationC, .imgContact {
         filter: drop-shadow(0 0 3px #b31414);
         width: 650px;
         height: 650px;
