@@ -19,15 +19,20 @@
     font-weight: 700;
     font-style: italic;
     font-size: 1.9rem;
-    /* color: #ff9100; */
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-#about, #product, #community, .request{
-    min-height: 80vh;
+#about,
+#product,
+#community,
+.request {
+    min-height: 25vh;
+
 }
+
 .presentation {
 
     font-family: "Comfortaa", sans-serif;
@@ -37,12 +42,23 @@ a{
     text-shadow: 0 1px 0 #ff4949, 0 2px 0 #ff7777, 0 3px 0 #ffbbbb, 0 4px 0 #9f5b53, 0 1px 0 #b31414, 0 3px 3px rgba(38, 50, 56, 255);
 }
 
-.paragraphs {
+.paragraphsAbout {
+    margin-left: 1.5rem;
+}
+
+.paragraphs,.paragraphsAbout, .paragraphsCommunity {
     font-family: "Noto Serif", serif;
 }
 
-.presentationCaro {
+.presentationCaro,
+.presentationC {
     filter: drop-shadow(0 0 3px #b31414);
+    width: 650px;
+    height: 650px;
+}
+
+.presentationC {
+    margin-left: 20rem;
 }
 
 .button-3d {
@@ -96,12 +112,98 @@ span {
     text-shadow: 0 1px 0 #ff4949, 0 2px 0 #ff7777, 0 3px 0 #ffbbbb, 0 2px 0 #9f5b53, 0 2px 0 #b31414, 0 2px 1px rgba(38, 50, 56, 255);
 }
 
+.presentationCaro {
+    margin-left: 5rem;
+}
+
 .footerText {
     background-color: #ff9100
 }
 
 @media (max-width: 576px) {
-   .brand{
-    display: none;
-   }
+
+    .brand {
+        display: none;
+    }
+
+    #about,
+    #product,
+    #community,
+    .request,
+    .paragraphsAbout,
+    .presentationC {
+        margin: 0;
+        width: 100%;
+    }
+
+    .presentationCaro {
+        margin-left: 0rem;
+        width: 250px;
+        height: 250px;
+    }
+    .button-3d {
+        margin-left: 6.4rem;
+    }
+    
+    .presentationC{
+        width: 410px;
+        height: 410px;
+
+    }
+    .register {
+        padding: 1.5rem;
+    }
 }
+
+@media (min-width: 768px) {
+    .presentationCaro {
+        width: 100%;
+        margin-left: 4rem;
+    }
+    
+    #about,
+    #product,
+    #community,
+    .request,
+    .paragraphsAbout,
+    .presentationC {
+        margin: 0;
+        width: 100%;
+    }
+
+     .presentationCaro{
+
+        width: 100%;
+        margin-right: 2rem;
+    } 
+
+    .button-3d {
+        margin-left: 22.5rem;
+    }
+
+    .paragraphsCommunity{
+        margin-left: 2.5rem;
+    }
+    .presentationC {
+        margin-left: 3rem;
+    }
+}
+@media (min-width: 992px) {
+  
+    
+    .presentationCaro,
+    .presentationC {
+        filter: drop-shadow(0 0 3px #b31414);
+        width: 650px;
+        height: 650px;
+    }
+    .paragraphsCommunity{
+        margin-left: 5rem;
+    }
+    .presentationC {
+        margin-left: 20rem;
+    }
+    .button-3d {
+        margin-left: 8rem;
+    }
+ }
